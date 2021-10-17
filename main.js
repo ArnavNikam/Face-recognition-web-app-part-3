@@ -11,7 +11,7 @@ Webcam.attach(camera);
 
 function snapshot(){
     Webcam.snap(function(datauri){
-        document.getElementById("snap").innerHTML = '<img id="snapshot" src"'+datauri+'">';
+        document.getElementById("snap").innerHTML = '<img id="snapshot" src="'+datauri+'"/>';
     })
 }
 
