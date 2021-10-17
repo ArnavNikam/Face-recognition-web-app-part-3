@@ -23,17 +23,3 @@ function modelloaded(){
     console.log("model loaded");
 } 
 
-function check(){
-    store = document.getElementById("snapshot");
-    classifier.classify(store, gotResult);
-}
-
-function gotResult(error,results){
-    if(error){
-        console.error(error);
-    }  else{
-        console.log(results);
-        document.getElementById("object").innerHTML = results[0].lable;
-        document.getElementById("accuracy").innerHTML = results[0].confidnce.toFixed(3);
-    }
-}
