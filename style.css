@@ -1,0 +1,20 @@
+body{
+    background-color: beige;
+    color: blue;
+}
+
+.button{
+    font-size: 22px;
+    width: 80%;
+}
+
+.tag,#object,#accuracy{
+    color: crimson;
+}
+
+#live{
+    width: 350px;
+    height: 300px;
+    border: 2px dashed blue;
+}
+
